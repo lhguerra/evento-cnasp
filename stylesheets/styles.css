@@ -1,7 +1,57 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #940100;
 }
 
-.align-center {
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*#A30100*/
+/*#940100 escuro*/
+
+#page-wrapper {
+  display: flex;
+}
+
+main header {
   text-align: center;
+}
+
+main, aside {
+  padding: 1rem;
+}
+
+main {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+aside {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+img {
+  max-width: 50%;
+}
+
+p, li {
+  text-align: left;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.author {
+  font-style: italic;
+  display: block;
+}
+
+@media all and (max-width: 900px) {
+  #page-wrapper {
+    flex-direction: column;
+  }
 }
