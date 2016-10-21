@@ -73,6 +73,10 @@ iframe {
   padding-left: 1rem;
 }
 
+#schedule li {
+  margin-bottom: 1rem;
+}
+
 @media all and (max-width: 900px) {
   #page-wrapper {
     flex-direction: column;
