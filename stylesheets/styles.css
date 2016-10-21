@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #940100;
+  margin: 0;
 }
 
 ul {
@@ -31,10 +32,12 @@ main {
 aside {
   flex-grow: 1;
   flex-basis: 0;
+  color: white;
+  background-color: #940100;
 }
 
-img {
-  max-width: 50%;
+#logo {
+  max-width: 300px;
 }
 
 p, li {
