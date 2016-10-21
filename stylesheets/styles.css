@@ -24,6 +24,12 @@ main, aside {
   padding: 1rem;
 }
 
+main p {
+  max-width: 40em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 main {
   flex-grow: 2;
   flex-basis: 0;
