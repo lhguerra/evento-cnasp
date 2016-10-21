@@ -36,6 +36,15 @@ aside {
   background-color: #940100;
 }
 
+span {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+aside header span {
+  display: block;
+}
+
 #logo {
   max-width: 300px;
 }
@@ -51,6 +60,17 @@ iframe {
 .author {
   font-style: italic;
   display: block;
+}
+
+/*INSCRIPTIONS*/
+#inscriptions h4 {
+  margin-bottom: 0;
+}
+
+/*SCHEDULE*/
+#schedule {
+  border-left: 1px solid rgba(255,255,255,0.6);
+  padding-left: 1rem;
 }
 
 @media all and (max-width: 900px) {
