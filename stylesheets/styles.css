@@ -79,6 +79,10 @@ iframe {
   display: block;
 }
 
+#contributors-heading {
+  margin-bottom: 0.5em;
+}
+
 /*INSCRIPTIONS*/
 #inscriptions h4 {
   margin-bottom: 0;
