@@ -24,7 +24,8 @@ main, aside {
   padding: 1rem;
 }
 
-main p {
+main p,
+#reading-suggestions {
   max-width: 40em;
   margin-right: auto;
   margin-left: auto;
